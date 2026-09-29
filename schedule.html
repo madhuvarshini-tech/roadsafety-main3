@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View upcoming road safety workshop schedules and venues with Road Minded Safety Solutions across Tamil Nadu." data-i18n="pages.schedule.description">
+  <meta name="keywords" content="road safety workshop schedule, training venues, Tamil Nadu workshops, Road Minded Safety Solutions" data-i18n="pages.schedule.keywords">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://roadmindedsafetysolutions.com/schedule.html">
+  <meta property="og:title" content="Workshop Schedule & Venues | Road Minded Safety Solutions">
+  <meta property="og:description" content="Upcoming road safety workshop schedules and venues from Road Minded Safety Solutions.">
+  <meta property="og:url" content="https://roadmindedsafetysolutions.com/schedule.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Road Minded Safety Solutions">
+  <meta property="og:image" content="https://roadmindedsafetysolutions.com/assets/images/logo-cropped.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Workshop Schedule & Venues | Road Minded Safety Solutions">
+  <meta name="twitter:description" content="Workshop schedule and venues — Road Minded Safety Solutions.">
+  <meta name="twitter:image" content="https://roadmindedsafetysolutions.com/assets/images/logo-cropped.png">
+  <title data-i18n="pages.schedule.title">Workshop Schedule & Venues | Road Minded Safety Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+</head>
+<body data-page="schedule">
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-badge" data-i18n="hero.badge">Tamil Nadu Safety & Compliance Initiative</span>
+        <h1 data-i18n="schedule.title">Upcoming Schedule & Venues</h1>
+        <p data-i18n="schedule.subtitle">Find and register for safety workshops near you across Tamil Nadu.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="schedule-filters reveal" role="search" aria-label="Filter workshops">
+          <div class="filter-group filter-search">
+            <label for="filter-search" data-i18n="schedule.searchPlaceholder">Search workshops</label>
+            <input type="search" id="filter-search" data-i18n-placeholder="schedule.searchPlaceholder" placeholder="Search workshops...">
+          </div>
+          <div class="filter-group">
+            <label for="filter-district" data-i18n="schedule.filterDistrict">District</label>
+            <select id="filter-district" aria-label="Filter by district"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-city" data-i18n="schedule.filterCity">City</label>
+            <select id="filter-city" aria-label="Filter by city"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-category" data-i18n="schedule.filterCategory">Category</label>
+            <select id="filter-category" aria-label="Filter by category"></select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-date" data-i18n="schedule.filterDate">Workshop Date</label>
+            <select id="filter-date" aria-label="Filter by date"></select>
+          </div>
+        </div>
+        <p id="results-info" class="results-info" aria-live="polite"></p>
+        <div id="workshop-list" class="workshop-list" role="list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="site-modals"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

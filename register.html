@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register for a road safety workshop or request corporate driver training with Road Minded Safety Solutions." data-i18n="pages.register.description">
+  <meta name="keywords" content="register road safety workshop, corporate driver training registration, Road Minded Safety Solutions" data-i18n="pages.register.keywords">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://roadmindedsafetysolutions.com/register.html">
+  <meta property="og:title" content="Register for Workshop | Road Minded Safety Solutions">
+  <meta property="og:description" content="Register for a road safety workshop or request corporate training with Road Minded Safety Solutions.">
+  <meta property="og:url" content="https://roadmindedsafetysolutions.com/register.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Road Minded Safety Solutions">
+  <meta property="og:image" content="https://roadmindedsafetysolutions.com/assets/images/logo-cropped.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Register for Workshop | Road Minded Safety Solutions">
+  <meta name="twitter:description" content="Register for road safety workshops with Road Minded Safety Solutions.">
+  <meta name="twitter:image" content="https://roadmindedsafetysolutions.com/assets/images/logo-cropped.png">
+  <title data-i18n="pages.register.title">Register for Workshop | Road Minded Safety Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+</head>
+<body data-page="register">
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-badge" data-i18n="hero.badge">Tamil Nadu Safety & Compliance Initiative</span>
+        <h1 data-i18n="register.title">Workshop Registration</h1>
+        <p data-i18n="register.subtitle">Complete the form below to register for your selected workshop or request corporate training.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container-narrow">
+        <div class="register-page-card reveal card-3d">
+          <div id="register-page-success" class="form-success" role="status"></div>
+          <form id="register-page-form" class="register-page-form" novalidate>
+            <div class="form-group">
+              <label for="rp-name"><span data-i18n="register.fullName">Full Name</span> <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="rp-name" autocomplete="name" required>
+              <span class="form-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="rp-org"><span data-i18n="register.organization">Company / Organization</span> <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="rp-org" autocomplete="organization" required>
+              <span class="form-error" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="rp-mobile"><span data-i18n="register.mobile">Mobile Number</span> <span class="required" aria-hidden="true">*</span></label>
+                <input type="tel" id="rp-mobile" autocomplete="tel" inputmode="numeric" required>
+                <span class="form-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="rp-email"><span data-i18n="register.email">Email Address</span> <span class="required" aria-hidden="true">*</span></label>
+                <input type="email" id="rp-email" autocomplete="email" required>
+                <span class="form-error" role="alert"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="rp-workshop"><span data-i18n="pages.register.formWorkshop">Workshop / Course</span> <span class="required" aria-hidden="true">*</span></label>
+              <select id="rp-workshop" required></select>
+              <span class="form-error" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="rp-location"><span data-i18n="pages.register.formLocation">Preferred Location</span></label>
+                <select id="rp-location"></select>
+              </div>
+              <div class="form-group">
+                <label for="rp-participants"><span data-i18n="pages.register.formParticipants">Number of Participants</span></label>
+                <input type="number" id="rp-participants" min="1" max="500" value="1">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="rp-message"><span data-i18n="pages.register.formMessage">Message</span></label>
+              <textarea id="rp-message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="register.submit">Submit Registration</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="site-modals"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

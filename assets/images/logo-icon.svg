@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Road Minded Safety Solutions">
+  <circle cx="60" cy="60" r="58" fill="#ffffff"/>
+  <!-- Green arrow (left, up) -->
+  <path d="M18 72 A42 42 0 0 1 28 28" fill="none" stroke="#22C55E" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="28,28 36,38 22,38" fill="#22C55E"/>
+  <!-- Blue arrow (top, right) -->
+  <path d="M28 28 A42 42 0 0 1 92 22" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="92,22 82,32 88,18" fill="#3B82F6"/>
+  <!-- Navy arrow (right, down) -->
+  <path d="M92 22 A42 42 0 0 1 98 88" fill="none" stroke="#1E3A8A" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="98,88 88,78 94,96" fill="#1E3A8A"/>
+  <!-- Shield -->
+  <path d="M60 28 L78 36 V58 C78 72 60 84 60 84 C60 84 42 72 42 58 V36 Z" fill="none" stroke="#3B82F6" stroke-width="3"/>
+  <!-- Head profile -->
+  <path d="M48 58 C48 48 54 42 62 42 C70 42 74 50 72 58 C70 66 64 70 58 70 C52 70 48 66 48 58 Z" fill="#DBEAFE"/>
+  <circle cx="66" cy="52" r="4" fill="#F59E0B"/>
+  <circle cx="58" cy="54" r="3.5" fill="#64748B"/>
+  <!-- Road -->
+  <path d="M34 88 L60 52 L86 34" fill="none" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M34 88 L60 52 L86 34" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" transform="translate(0,2)"/>
+  <path d="M48 72 L60 58 L72 46" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <!-- Road arrow tip -->
+  <polygon points="86,34 78,38 82,28" fill="#1E3A8A"/>
+</svg>

@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Home page — Road Minded banner hero (index.html only)
+   Scoped to body[data-page="home"]
+   ========================================================================== */
+
+body[data-page="home"] .rm-hero {
+  margin-top: var(--header-height);
+  line-height: 0;
+  overflow: hidden;
+  background: #0f172a;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+}
+
+body[data-page="home"] .rm-hero-banner {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: top;
+  margin: 0 auto;
+  filter: none;
+  image-rendering: auto;
+  -ms-interpolation-mode: bicubic;
+  transform: none;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  body[data-page="home"] .rm-hero {
+    margin-top: var(--header-height);
+    box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+  }
+
+  body[data-page="home"] .rm-hero-banner {
+    width: 100%;
+    height: auto;
+    transform: none;
+    margin-bottom: 0;
+    image-rendering: auto;
+  }
+}
+
+
